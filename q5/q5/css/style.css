@@ -1,1 +1,120 @@
 @charset "UTF-8";
+
+.no-flexbox{
+  display: flex;
+  flex-direction: row;
+}
+
+.return-noflexbox{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+}
+
+.return-box{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.widthbox{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.return-widthbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.All-widthbox{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.justify-box{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left-justify-box{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.center-justify-box{
+  display: flex;
+  justify-content: center;
+}
+
+.width-justify-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.margin-justfy-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.griditembox{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 10px;
+}
+
+.freewidth-gridbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.noheight-gridbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 200px 200px;
+  margin-top: 20px;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.itembox{
+  width: 65px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background: #00bbdd;
+  color: #fff;
+}
+
+.gridbox{
+  padding: 10px;
+  background: #00bbdd;
+  color: #fff;
+}
+
+.redbox {
+  grid-column: 1 / 3;
+  background: #dd0700;
+}
+
+.greenbox {
+  grid-row: 2 / 4;
+  background: #0bdd00;
+}
+
+.yellowbox {
+  grid-column: 2 / 4;
+  background: #d9dd00;
+}

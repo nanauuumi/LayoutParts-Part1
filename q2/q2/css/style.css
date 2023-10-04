@@ -1,2 +1,18 @@
 @charset "UTF-8";
 /* 回答はここから */
+.box{
+  display: flex;
+  justify-content: center;
+}
+
+.brownbox{
+  list-style: none;
+  width: 100px;
+  margin: 30px;
+  width: 200px;
+  border-radius: 13px;
+  padding: 10px;
+  background-color: #d2b48c;
+  box-shadow: 0 0 0 6px #655;
+  outline: 10px solid #655;
+}
