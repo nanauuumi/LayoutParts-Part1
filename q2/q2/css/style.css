@@ -7,12 +7,15 @@
 
 .brownbox{
   list-style: none;
-  width: 100px;
-  margin: 30px;
+  margin: 0 60px 0 0;
   width: 200px;
   border-radius: 13px;
   padding: 10px;
   background-color: #d2b48c;
   box-shadow: 0 0 0 6px #655;
   outline: 10px solid #655;
+}
+
+.brownbox:last-child{
+  margin: 0;
 }
